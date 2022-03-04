@@ -58,7 +58,7 @@ function greet() {
 greet()
 
 function sayHello(name) {      // name is a parameter of sayHello()
-    console.log('Hello' + ' ' + name);  
+    console.log('Hello' + ' ' + name);  // we can use template literals to clean up this code, instead of concatenation, we can use template literals
 }
 
 sayHello('Sachin'); // Sachin is an argument to sayHello()
